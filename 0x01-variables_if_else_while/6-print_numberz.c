@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print single numbers in base 10
- * using putchar without the char declaration
+ * using putchar without the char variables
  * Return: Always 0
  */
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 	for (num = 0; num < 10; num++)
 		putchar((num % 10) + 0);
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
