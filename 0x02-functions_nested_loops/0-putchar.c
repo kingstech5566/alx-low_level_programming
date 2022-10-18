@@ -8,9 +8,7 @@ int main(void)
 	char letter;
 
 	for (letter = 'a'; letter <= 'f'; letter++)
-		_putchar(letter);
-
-	_putchar('\n');
+		_putchar(letter, '\n');
 
 	return (0);
 }
