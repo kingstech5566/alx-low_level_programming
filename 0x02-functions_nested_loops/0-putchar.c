@@ -3,12 +3,17 @@
  * main - print a putchar program
  * Return: Always 0
  */
-int main(void)
+int main(void);
 {
-	char letter;
-
-	for (letter = 'a'; letter <= 'f'; letter++)
-		_putchar(letter, '\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
