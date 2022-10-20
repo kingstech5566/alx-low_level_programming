@@ -1,22 +1,19 @@
 #include "main.h"
 /**
- * print_to_98 - print all natural numbers from n to 98
- * @n: prints to 98
- * Return: void
- */
-void print_to_98(int n)
+  * main - check the code for ALX School students.
+  *
+  * Return: Always 0.
+  */
+int main(void)
 {
-	int n;
-	for (n = 0; n < 98; n++)
-	{
-		printf('\n');
-		if (n <= 98)
-		{
-			printf("%d\n, n++");
-		}
-		else
-		{
-			printf("%d\n", n);
-		}
-	}
+	    print_times_table(3);
+	    _putchar('\n');
+	    print_times_table(5);
+	    _putchar('\n');
+	    print_times_table(98);
+	    _putchar('\n');
+	    print_times_table(12);
+
+	    return (0);
 }
+
