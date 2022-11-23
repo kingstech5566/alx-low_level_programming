@@ -11,13 +11,13 @@ int is_prime_number(int n);
  * Return: if the number is divisible - 0
  * if the number is not divisible - 1
  */
-int is_prime_number(int num, int div)
+int is_prime_number(int n)
 {
-	if (num % div == 0)
+	if (n % div == 0)
 		return (0);
 
-	if (div == num / 2)
+	if (div == n / 2)
 		return (1);
 
-	return (is_divisible(num, div + 1));
+	return (is_divisible(n, div + 1));
 }
